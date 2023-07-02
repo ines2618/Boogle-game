@@ -7,14 +7,14 @@ The objective of this practical work was to implement the game of Boggle using c
 
 The project is divided into 3 modules:
 
-   The "EnsembleMots" module is responsible for reading the file containing all the words and storing them in a static array.
+The "EnsembleMots" module is responsible for reading the file containing all the words and storing them in a static array.
 
     
-     The "Grille" module handles random generation of the game board, word search in the word set to validate user-entered words via the graphical interface. This module contains a structure named "Save" which allows us to save the previously validated words by the player to prevent them from validating the same word repeatedly for maximum points.
+The "Grille" module handles random generation of the game board, word search in the word set to validate user-entered words via the graphical interface. This module contains a structure named "Save" which allows us to save the previously validated words by the player to prevent them from validating the same word repeatedly for maximum points.
    
       
-   The "Graphique" module is responsible for displaying the entire interface (game board, score, etc.).
-  During the course, an additional module was added to address a major issue in this practical work:
+The "Graphique" module is responsible for displaying the entire interface (game board, score, etc.).
+During the course, an additional module was added to address a major issue in this practical work:
  
   
 How to retrieve and delete each validated letter from the user in the correct order?
